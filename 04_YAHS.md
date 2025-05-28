@@ -47,7 +47,7 @@ samtools sort -@8 -o AsmOmniCmapped.bam ;samtools index AsmOmniCmapped.bam
 `yahs StarApple.p.purged2.fa AsmOmniCmapped.bam -o StarAppleScaf`
 
 
-|[Previous](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/03_assembly.md)|[Next]()|
+|[Previous](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/03_assembly.md)|[Next](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/05_GenomeAnnotation.md)|
 |---|---|
 
 
