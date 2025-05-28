@@ -1,3 +1,15 @@
 ## GenomeScope2 Tutorial
 
-When creating de novo assemblies, key factors to consider include the organism's ploidy, genome size, heterozygosity rate, and repeat content. These parameters can be estimated using [GenomeScope2](https://github.com/tbenavi1/genomescope2.0)
+When creating de novo assemblies, key factors to consider include the organism's ploidy, genome size, heterozygosity rate, and repeat content. These parameters can be estimated using [GenomeScope2](https://github.com/tbenavi1/genomescope2.0). Before running GenomeScope2, you must first compute the histogram of k-mer frequencies. We will use [jellyfish](https://github.com/gmarcais/Jellyfish)
+
+K-mer Counting with Jellyfish
+`jellyfish count -C -m 21 -s 1000000 -t 2 cel1_50K_hifi_trimmed.fastq -o star.jr`
+
+Histogram Generation from Jellyfish Output
+`jellyfish histo star.jr > star.histo`
+
+Run GenomeScope to visualize
+`Rscript /usr/bin/genomescope.R -i star.histo -o star -k 21`
+
+Here is an example of StarApple Genome genomescope2 output
+![genomescopePlot](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/transformed_linear_plot.png)
