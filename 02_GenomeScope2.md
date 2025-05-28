@@ -13,3 +13,6 @@ Run GenomeScope to visualize <br>
 
 Here is an example of StarApple Genome GenomeScope2 output
 ![genomescopePlot](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/transformed_linear_plot.png)
+
+|[Previous](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/01_QC.md)|[Next](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/03_assembly.md)|
+|---|---|
