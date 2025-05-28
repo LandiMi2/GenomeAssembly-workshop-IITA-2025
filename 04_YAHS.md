@@ -16,6 +16,10 @@ Get the sizes of the contigs
 
 `cut -f1,2 StarApple.p.purged2.fa.fai > StarApple.p.purged2.fa.fai.sizes`
 
+Prepate the bwa index for the reference genome
+
+`bwa index StarApple.p.purged2.fa`
+
 `mkdir tmp` this will be used as a temporary files
 
 All the tools have been compiled in a python enviroment, activate the enviroment
