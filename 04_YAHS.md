@@ -4,10 +4,10 @@ We now have a draft assembly that we will now scaffold using the OmniC read. Fir
 
 Before mapping the OmniC reads follow [QC tutorial](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/01_QC.md) - check for the quality and trim the reads based on the QC report
 
-The data is avalable: `/data01/dataRepository/rawData/StarApple/OmniC2`
+The data is avalable: `/data01/dataRepository/StarApple/`
 
-    FC2001607-BCC_L01_Read1_Sample_Library_LA_African_Star_Apple_lane_1.fastq.gz
-    FC2001607-BCC_L01_Read2_Sample_Library_LA_African_Star_Apple_lane_1.fastq.gz
+    OmniC_R1.fastq.gz
+    OmniC_R2.fastq.gz
  
 
 **Mapping OmniC reads to the reference genome**
@@ -41,8 +41,8 @@ Copy paste. We will discuss each line of code as we wait for the mapping to comp
 ```
 bwa index StarApple.p.purged2.fa 
 bwa mem -SP -T0 -t 10 StarApple.p.purged2.fa \
-/data01/mlandi/Inqaba/data/OmniC_filtered/new/trimmed_omniC_R1.fastq.gz \
-/data01/mlandi/Inqaba/data/OmniC_filtered/new/trimmed_omniC_R2.fastq.gz | \
+/data01/dataRepository/StarApple/OmniC_R1_trim.fastq.gz \
+/data01/dataRepository/StarApple/OmniC_R2.trim.fastq.gz | \
 pairtools parse --min-mapq 0 --walks-policy 5unique \
 --max-inter-align-gap 30 --nproc-in 4 --nproc-out 4 \
 --chroms-path StarApple.p.purged2.fa.fai.sizes | \
