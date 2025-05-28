@@ -8,4 +8,6 @@ This repository contains the course tutorials for the Genome Assembly Workshop t
 _To be uploaded_
 
 
+### Slides
 
+_To be uploaded_
