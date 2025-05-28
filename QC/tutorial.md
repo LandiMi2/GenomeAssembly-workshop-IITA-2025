@@ -1,7 +1,5 @@
 ##  Quality control and trimming
 
-We will perform FastQC analysis on one cell of HiFi reads and OmniC reads of Star apple samples. Then using fastp we will clean the data based on the discussion we will have in class after discussing parameters to filter out. 
-
 Before we start we will learn how to run our analysis on background using screen. For information about [screen](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/). 
 The basic commands for screen that we will always use in the entire tutorial
 
@@ -27,13 +25,35 @@ Now that we are comfortable with screen let us run below analysis on background.
 
 **Running QC using fastqc**
 
+Help page - [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+
 On your home directory create QC folder 
 
-`mkdir -p QC`
+`mkdir -p QC\time`
 
-We have subseted 50,000 reads to run QC on the HiFi reads as the whole data set will take some time to run. 
+`fastqc -o QC -t 2 cel1_50K_hifi.fastq` 
 
-`fastqc -o QC -t 2 cel1_50K_hifi.fastq`
+Download the QC report 
+
+`scp -r  acountName@172.30.2.200:"/path to html file" .`
+
+Discuss the QC report 
+
+**Running trimming using fastp**
+
+Help page - [fastp](https://github.com/OpenGene/fastp)
+
+`mkdir -p QC\trim`
+
+`fastp -i cel1_50K_hifi.fastq -o trim/cel1_50K_hifi_trimmed.fastq --length_required 3000 --length_limit 30000 -f 15`
+
+Run fastqc on the trimmed data
+
+`fastqc trim/cel1_50K_hifi_trimmed.fastq`
+
+Download and discuss the QC report
+
+
 
 
 
