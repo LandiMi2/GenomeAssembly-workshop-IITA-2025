@@ -7,6 +7,8 @@ This repository contains the course tutorials for the Genome Assembly Workshop a
 
 _To be uploaded_
 
+### Connecting to the server
+
 
 ### Slides
 
