@@ -51,5 +51,5 @@ Run busco
 
 Explore the summary report
 
-|[Previous](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/02_GenomeScope2.md)|[Next]()|
+|[Previous](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/02_GenomeScope2.md)|[Next](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/04_YAHS.md)|
 |---|---|
