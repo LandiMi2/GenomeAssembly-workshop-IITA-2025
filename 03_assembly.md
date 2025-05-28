@@ -33,6 +33,23 @@ Compare the three assemblies using QUality ASsessment Tool [QUAST](https://githu
 
 Download and discuss the report 
 
+## Assembly completness 
+
+We will now assess the completness of the best assembly from our previous comparison using - Benchmarking Universal Single-Copy Orthologs [BUSCO](https://busco.ezlab.org/)
+
+We will first install busco locally on our accounts
+
+`git clone https://gitlab.com/ezlab/busco.git`
+
+`cd busco/`
+
+`python -m pip install .`
+
+Run busco
+
+`busco -m genome -i star.p.fasta -o  starBusco --metaeuk -l eudicots_odb10 -c 2`
+
+Explore the summary report
 
 |[Previous]()|[Next]()|
 |---|---|
