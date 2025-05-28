@@ -199,6 +199,10 @@ _outputs_
 
 ![busco](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/buscoScreenShot.png)
 
+|[Previous](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/04_YAHS.md)|
+|---|
+
+
 
 
 
