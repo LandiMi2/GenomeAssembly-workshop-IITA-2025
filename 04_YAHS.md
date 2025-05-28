@@ -2,7 +2,7 @@
 
 We now have a draft assembly that we will now scaffold using the OmniC read. First, we will map the OmniC read to the reference genome, then scaffold the genome using [YAHS](https://github.com/c-zhou/yahs) “yet another Hi-C scaffolding tool”
 
-Before mapping the OmniC reads follow [QC tutorial](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/01_QC.md) - check for the quality and trim the reads based on the QC report/
+Before mapping the OmniC reads follow [QC tutorial](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/01_QC.md) - check for the quality and trim the reads based on the QC report
 
 The data is avalable: `/data01/dataRepository/rawData/StarApple/OmniC2`
 
