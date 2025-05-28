@@ -1,0 +1,65 @@
+##  Quality control and trimming
+
+Before we start we will learn how to run our analysis on background using screen. For information about [screen](https://www.geeksforgeeks.org/screen-command-in-linux-with-examples/). 
+The basic commands for screen that we will always use in the entire tutorial
+
+*Start a New Screen Session* <br>
+`screen -S back` then hit enter, this will open a new terminal window <br>
+
+Once you have opened the new screen, print "This is my first screen" using this command `echo This is my first screen`  <br>
+
+*Detach from a Screen Without Closing It* <br>
+press `control+A+D` all at once <br>
+*List All Running or Detached Screen Sessions* <br>
+`screen -ls` <br>
+*Reattach to a Screen Session* <br>
+`screen -r back` <br>
+
+*Create another screen and print "This is my second screen"*  <br>
+
+If you want to delete screen <br>
+- Within the screen you can type `exit` then hit enter <br>
+- Outside screen, you can delete screen using `screen kill 27732` (this time you have to specify the screen ID) <br>
+
+Now that we are comfortable with screen let us run below analysis on background. 
+
+**Running QC using fastqc**
+
+Help page - [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+
+On your home directory create QC folder 
+
+`mkdir -p QC\time`
+
+`fastqc -o QC -t 2 cel1_50K_hifi.fastq` 
+
+Download the QC report 
+
+`scp -r  acountName@172.30.2.200:"/path to html file" .`
+
+Discuss the QC report 
+
+**Running trimming using fastp**
+
+Help page - [fastp](https://github.com/OpenGene/fastp)
+
+`mkdir -p QC\trim`
+
+`fastp -i cel1_50K_hifi.fastq -o trim/cel1_50K_hifi_trimmed.fastq --length_required 3000 --length_limit 30000 -f 15`
+
+Run fastqc on the trimmed data
+
+`fastqc trim/cel1_50K_hifi_trimmed.fastq`
+
+Download and discuss the QC report
+
+
+
+
+
+
+
+
+
+
+
