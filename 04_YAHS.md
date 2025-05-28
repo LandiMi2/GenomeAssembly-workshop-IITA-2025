@@ -37,7 +37,8 @@ Copy below chuck of code and save it as script
 Copy paste. We will discuss each line of code as we wait for the mapping to complete
 
 
-```bwa index StarApple.p.purged2.fa 
+```
+bwa index StarApple.p.purged2.fa 
 bwa mem -SP -T0 -t 10 StarApple.p.purged2.fa \
 /data01/mlandi/Inqaba/data/OmniC_filtered/new/trimmed_omniC_R1.fastq.gz \
 /data01/mlandi/Inqaba/data/OmniC_filtered/new/trimmed_omniC_R2.fastq.gz | \
