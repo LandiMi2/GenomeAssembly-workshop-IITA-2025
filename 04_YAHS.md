@@ -28,6 +28,7 @@ Get the sizes of the contigs
 `mkdir tmp` this will be used as a temporary files
 
 All the tools have been compiled in a python enviroment, activate the enviroment
+
 `source /data01/utilities/mapOmnic/bin/activate`
 
 Copy below chuck of code and save it as script
