@@ -57,6 +57,10 @@ samtools sort -@8 -o AsmOmniCmapped.bam ;samtools index AsmOmniCmapped.bam
 
 `yahs StarApple.p.purged2.fa AsmOmniCmapped.bam -o StarAppleScaf`
 
+**Genome evaluation** 
+
+Run BUSCO and QUAST on the scaffolded genome. Compare `StarApple.p.purged2.fa` genome with the scaffolds. What is the difference? Discuss. 
+
 
 |[Previous](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/03_assembly.md)|[Next](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/05_GenomeAnnotation.md)|
 |---|---|
