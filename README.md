@@ -62,7 +62,7 @@ Time in West Africa Time (WAT)
 | Time         | Session                                                                                       | Instructor(s)                              |
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 08:30–09:00  | Day 3 Recap                                                                                   | All                                        |
-| 09:00–09:45  | Intro to Bioinformatics Databases                                                             | Andreas                                    |
+| 09:00–09:45  | Introduction to Bioinformatics Databases                                                             | Andreas                                    |
 | 09:45–10:30  | Genome annotation (gene + repeat annotation) talk                                             | Laura Ondari, IITA, Kenya                  |
 | 10:30–10:45  | ☕ Coffee break                                                                                |                                            |
 | 10:45–13:00  | 👩‍💻 Demo: EDTA/RepeatMasker,Braker, EggNOG, InterProScan, BUSCO evaluation                     | Laura Ondari, IITA, Kenya                  |
