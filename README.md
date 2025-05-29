@@ -36,7 +36,7 @@ Time in West Africa Time (WAT)
 | 11:00–13:00  | 💻 Tutorial: Genomescope                                                                      | Michael and Andreas                        |
 | 13:00–14:30  | 🍴 Lunch break                                                                                |                                            |
 | 14:30–15:00  | Presentation of Star Apple                                                                    | Awoyemi, Adewale, IITA, Nigeria            |
-| 15:00–15:30  | 💻 Tutorial: Genome assembly - Hifiasm, canu and fly                                          | Michael and Andreas                        |
+| 15:00–15:30  | 💻 Tutorial: Genome assembly - Hifiasm, canu and flye                                         | Michael and Andreas                        |
 | 15:30–17:00  | 💻 Tutorial: BUSCO and QUAST                                                                  | Andreas and Michael                        |
 | 17:00–17:30  | 💻 Tutorial: Run OmniC read mapping script (expected to run overnight)                        | Andreas and Michael                        |
 
