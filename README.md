@@ -30,7 +30,7 @@ Time in West Africa Time (WAT)
 | Time         | Session                                                                                       | Instructor(s)                              |
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 08:30–09:00  | Day 1 Recap                                                                                   | All                                        |
-| 09:00–10:00  | Quality control of raw reads; genome assessment (ploidy, size); BUSCO & Merqury               | Michael Landi, IITA, Kenya                 |
+| 09:00–10:00  | Quality control and Genome assessment talk                                                    | Michael Landi, IITA, Kenya                 |
 | 10:00–10:45  | 💻 Tutorial: Quality control                                                                  | Michael and Andreas                        |
 | 10:45–11:00  | ☕ Coffee break                                                                                |                                            |
 | 11:00–13:00  | 💻 Tutorial: Genomescope                                                                      | Michael and Andreas                        |
