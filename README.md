@@ -35,7 +35,7 @@ Time in West Africa Time (WAT)
 | 10:45–11:00  | ☕ Coffee break                                                                                |                                            |
 | 11:00–13:00  | 💻 Tutorial: Genomescope                                                                      | Michael and Andreas                        |
 | 13:00–14:30  | 🍴 Lunch break                                                                                |                                            |
-| 14:30–15:00  | Presentation of Star Apple                                                                    | Awoyemi, Adewale, IITA, Nigeria            |
+| 14:30–15:00  | Presentation on Star Apple sampling and benefits of the plant                                 | Awoyemi, Adewale, IITA, Nigeria            |
 | 15:00–15:30  | 💻 Tutorial: Genome assembly - hifiasm, canu and flye                                         | Michael and Andreas                        |
 | 15:30–17:00  | 💻 Tutorial: BUSCO and QUAST                                                                  | Andreas and Michael                        |
 | 17:00–17:30  | 💻 Tutorial: Run OmniC read mapping script (expected to run overnight)                        | Andreas and Michael                        |
@@ -51,7 +51,7 @@ Time in West Africa Time (WAT)
 | 10:00–10:45  | BWA mapping and pairtools (step by step script explanation)                                   | Andreas                                    |
 | 10:45–11:00  | ☕ Coffee break                                                                                |                                            |
 | 11:15–11:45  | 💻 Tutorial: Genome scaffolding                                                               | Michael                                    |
-| 11:15–13:00  | 💻 Tutorial: BUSCO and QUAST (Start Apple genome - contigs & scaffolds) - Exercises           | Participants                               |
+| 11:45–13:00  | 💻 Tutorial: BUSCO and QUAST (Start Apple genome - contigs & scaffolds) - Exercises           | Participants                               |
 | 13:00–14:30  | 🍴 Lunch break                                                                                |                                            |
 | 14:30–17:30  | Genome manual curation — talk and demo                                                        | Sadik Muzemil, AfricaBP, GB                |
 
@@ -62,7 +62,7 @@ Time in West Africa Time (WAT)
 | Time         | Session                                                                                       | Instructor(s)                              |
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 08:30–09:00  | Day 3 Recap                                                                                   | All                                        |
-| 09:00–09:45  | Introduction to Bioinformatics Databases                                                             | Andreas                                    |
+| 09:00–09:45  | Introduction to Bioinformatics Databases                                                      | Andreas                                    |
 | 09:45–10:30  | Genome annotation (gene + repeat annotation) talk                                             | Laura Ondari, IITA, Kenya                  |
 | 10:30–10:45  | ☕ Coffee break                                                                                |                                            |
 | 10:45–13:00  | 👩‍💻 Demo: EDTA/RepeatMasker,Braker, EggNOG, InterProScan, BUSCO evaluation                     | Laura Ondari, IITA, Kenya                  |
