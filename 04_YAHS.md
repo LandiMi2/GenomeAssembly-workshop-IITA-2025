@@ -9,6 +9,9 @@ The data is avalable: `/data01/dataRepository/StarApple/`
     OmniC_R1.fastq.gz
     OmniC_R2.fastq.gz
  
+**QC and trimming of the the OmniC reads**
+
+us fastqc and fastp for this task as 
 
 **Mapping OmniC reads to the reference genome**
 
