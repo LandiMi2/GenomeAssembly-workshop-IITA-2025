@@ -92,7 +92,7 @@ In the "html" return format (default when the browser runs on a Mac or PC), all 
 
 ### Gene prediction and annotation
 
-Once repeats have been identified, annotated, and masked, it is time to predict and annotate genes. For this part of the tutorial, we will use BRAKER2 and Funannotate.
+Once repeats have been identified, annotated, and masked, it is time to predict and annotate genes. For this part of the tutorial, we will use BRAKER2.
 
 **Gene prediction**
 
