@@ -14,7 +14,7 @@ Time in West Africa Time (WAT)
 
 | Time         | Session                                                                                       | Instructor(s)                              |
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
-| 08:30–09:00  | Welcome — Introduction of participants and instructors (2 slides, max 5 min)                  | IITA DDG Hilde Kope, Inqaba Board Chairman Lukman Aroworamimo and IITA senior Researcher Andreas GIsel                      |
+| 08:30–09:00  | Welcome — Introduction of participants and instructors (2 slides, max 5 min)                  | IITA DDG Hilde Koper, Inqaba Board Chairman Lukman Aroworamimo and IITA senior Researcher Andreas Gisel                      |
 | 09:45-10:45  | Introduction to Next Generation Sequencing                                                    | Andreas Gisel, IITA, Nigeria               |
 | 10:45-11:00  | ☕ Coffee break                                                                                |                                            |
 | 11:00-12:00  | Introduction to Genome Assembly: de novo assembly (reads → scaffolds → chromosomes)           | Laurent Falquet, Univ. of Fribourg, CH     |
