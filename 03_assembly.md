@@ -6,7 +6,11 @@ Here we will assemble our trimmed reads using three assembly tools [hifiasm](htt
 **Running hifiasm**
 
 `hifiasm -o star -t 2 cel1_50K_hifi_trimmed.fastq --primary`
+
+
 Convert gfa to fasta
+
+
 `awk '/^S/{print ">"$2;print $3}' star.p_ctg.gfa > star.p.fa `
 
 Discuss the output files
@@ -19,7 +23,7 @@ Discuss the output files
 
 **Running flye**
 
-`flye --pacbio-hifi ../../QC/trim/cel1_50K_hifi_trimmed.fastq -o flye/ --threads 2`
+`flye --pacbio-hifi cel1_50K_hifi_trimmed.fastq -o flye/ --threads 2`
 
 Discuss the output files
 
@@ -35,7 +39,7 @@ Download and discuss the report
 
 ## Assembly completness 
 
-We will now assess the completness of the best assembly from our previous comparison using - Benchmarking Universal Single-Copy Orthologs [BUSCO](https://busco.ezlab.org/)
+We will now assess the completeness of the best assembly from our previous comparison using - Benchmarking Universal Single-Copy Orthologs [BUSCO](https://busco.ezlab.org/)
 
 We will first install busco locally on our accounts
 
