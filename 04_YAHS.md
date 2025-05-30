@@ -1,6 +1,6 @@
 ## Scaffolding tutorial
 
-We now have a draft assembly that we will now scaffold using the OmniC read. First, we will map the OmniC read to the reference genome, then scaffold the genome using [YAHS](https://github.com/c-zhou/yahs) “yet another Hi-C scaffolding tool”
+We now have a draft assembly that we will now scaffold using the OmniC reads. First, we will map the OmniC reads to the reference genome, then scaffold the genome using [YAHS](https://github.com/c-zhou/yahs) “yet another Hi-C scaffolding tool”
 
 Before mapping the OmniC reads follow [QC tutorial](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/01_QC.md) - check for the quality and trim the reads based on the QC report
 
@@ -25,9 +25,9 @@ Get the sizes of the contigs
 `cut -f1,2 StarApple.p.purged2.fa.fai > StarApple.p.purged2.fa.fai.sizes`
 
 
-`mkdir tmp` this will be used as a temporary files
+`mkdir tmp` this will be used as a temporary directory to store temporary output files
 
-All the tools have been compiled in a python enviroment, activate the enviroment
+All the tools have been compiled in a python environment, activate the environment
 
 `source /data01/utilities/mapOmnic/bin/activate`
 
