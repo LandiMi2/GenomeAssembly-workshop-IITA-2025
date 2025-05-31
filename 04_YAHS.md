@@ -27,11 +27,10 @@ Get the sizes of the contigs
 
 `cut -f1,2 StarApple.p.purged2.fa.fai > StarApple.p.purged2.fa.fai.sizes`
 
-Create the reference index of StarApple.p.purged2.fa
-
-`bwa index StarApple.p.purged2.fa`
 
 `mkdir tmp` this will be used as a temporary directory to store temporary output files
+
+Now create _new screen_ to run the OmniC reads mapping script
 
 All the tools have been compiled in a python environment, activate the environment
 
