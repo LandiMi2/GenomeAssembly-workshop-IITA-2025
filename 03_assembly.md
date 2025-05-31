@@ -33,6 +33,8 @@ Discuss the output files
 Compare the three assemblies using QUality ASsessment Tool [QUAST](https://github.com/ablab/quast)
 
 
+`/data01/utilities/quast-quast_5.1.0rc1/quast.py`
+
 `quast.py <assembly1> <assembly2> <assembly3> -o outDir`
 
 Download and discuss the report 
