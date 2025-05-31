@@ -11,6 +11,15 @@ Histogram Generation from Jellyfish Output <br>
 Run GenomeScope to visualize <br>
 `Rscript /usr/bin/genomescope.R -i star.histo -o star -k 21`
 
+Genomscope can be installed as bellow:
+
+```
+git clone https://github.com/tbenavi1/genomescope2.0.git
+cd genomescope2.0/
+Rscript install.R
+genomescope.R
+```
+
 Here is an example of StarApple Genome GenomeScope2 output
 ![genomescopePlot](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/transformed_linear_plot.png)
 
