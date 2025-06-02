@@ -19,7 +19,7 @@ Time in West Africa Time (WAT)
 | 10:45-11:00  | ☕ Coffee break                                                                                |                                            |
 | 11:00-12:00  | Introduction to Genome Assembly: de novo assembly (reads → scaffolds → chromosomes)           | Laurent Falquet, Univ. of Fribourg, CH     |
 | 12:00-13:00  | Star Apple Genome Assembly presentation                                                       | Michael Landi, IITA, Kenya                 |
-| 13:00-14:30  | 🍴 Lunch break                                                                                |                                            |
+| 13:00-14:30  | 🍴 [Lunch break](https://sites.google.com/view/ihterracebar?usp=sharing)                       |              |
 | 14:30-17:30  | Linux tutorial & hands-on: remote access, file systems, redirecting, scripting                | Michael and Andreas                        |
 |              | 📚 [Shell Genomics Material](https://datacarpentry.github.io/shell-genomics/)                 |                                            |
 
@@ -85,3 +85,15 @@ Time in West Africa Time (WAT)
 ---
 
 
+**WiFi Connection**
+
+Username:     IARSAF2@cgiar.org or CGIARAD\IARSAF2
+
+
+Password:      3JAWNj%aln
+
+
+**Lunch**
+Click on the link below for the snack bar menu.
+ 
+https://sites.google.com/view/ihterracebar?usp=sharing
