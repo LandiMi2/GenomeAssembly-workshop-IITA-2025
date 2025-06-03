@@ -20,7 +20,7 @@ Time in West Africa Time (WAT)
 | 08:30–09:45  | Welcome — Introduction of participants and instructors (2 slides, max 5 min)                  | IITA DDG Hilde Koper, Inqaba Board Chairman Lukman Aroworamimo and IITA senior Researcher Andreas Gisel                      |
 | 09:45-10:45  | [Introduction to Next Generation Sequencing](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/ngs_intro_red.pdf)                                                    | Andreas Gisel, IITA, Nigeria               |
 | 10:45-11:00  | ☕ Coffee break                                                                                |                                            |
-| 11:00-12:00  | Introduction to Genome Assembly: de novo assembly (reads → scaffolds → chromosomes)           | Laurent Falquet, Univ. of Fribourg, CH     |
+| 11:00-12:00  | [Introduction to Genome Assembly: de novo assembly (reads → scaffolds → chromosomes)](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/Intro_NGSassembly2025.pdf)           | Laurent Falquet, Univ. of Fribourg, CH     |
 | 12:00-13:00  | Star Apple Genome Assembly presentation                                                       | Michael Landi, IITA, Kenya                 |
 | 13:00-14:30  | 🍴 [Lunch break](https://sites.google.com/view/ihterracebar?usp=sharing)                       |              |
 | 14:30-17:30  | Linux tutorial & hands-on: remote access, file systems, redirecting, scripting                | Michael and Andreas                        |
@@ -33,7 +33,7 @@ Time in West Africa Time (WAT)
 | Time         | Session                                                                                       | Instructor(s)                              |
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 08:30–09:00  | Day 1 Recap                                                                                   | All                                        |
-| 09:00–10:00  | Quality control and Genome assessment talk                                                    | Michael Landi, IITA, Kenya                 |
+| 09:00–10:00  | 💻 Tutorial: Linux tutorial                                                   | Michael Landi, IITA, Kenya                 |
 | 10:00–10:45  | 💻 Tutorial: Quality control                                                                  | Michael and Andreas                        |
 | 10:45–11:00  | ☕ Coffee break                                                                                |                                            |
 | 11:00–13:00  | 💻 Tutorial: Genomescope                                                                      | Michael and Andreas                        |
