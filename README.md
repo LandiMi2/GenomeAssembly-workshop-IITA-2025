@@ -1,10 +1,13 @@
 # 🧬 Genome Assembly and Annotation Workshop 2025
-📅 **Dates:** 2–6 June 2025  
+
+![groupPhoto](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/Group.jpg)
 
 This repository contains the course tutorials for the Genome Assembly Workshop at the International Institute of Tropical Agriculture [IITA](https://www.iita.org/). The course is organized by the [African BioGenome Project](https://africanbiogenome.org/), [inqaba biotec](https://inqababiotec.co.za/), [IITA Forest Center](https://forestcenter.iita.org/index.php/about/iita-forest-reserve/) and [IITA Bioscience](https://bioscience.iita.org/). 
 
 
 ### Program 
+
+📅 **Dates:** 2–6 June 2025  
 
 Time in West Africa Time (WAT)
 
