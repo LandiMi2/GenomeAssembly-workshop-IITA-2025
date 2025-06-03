@@ -33,13 +33,13 @@ Time in West Africa Time (WAT)
 | Time         | Session                                                                                       | Instructor(s)                              |
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 08:30–09:00  | Day 1 Recap                                                                                   | All                                        |
-| 09:00–10:00  | 💻 Tutorial: Linux tutorial                                                   | Michael Landi, IITA, Kenya                 |
-| 10:00–10:45  | 💻 Tutorial: Quality control                                                                  | Michael and Andreas                        |
+| 09:00–10:00  | 💻 Tutorial: [Linux tutorial](https://datacarpentry.github.io/shell-genomics/)                                                   | Michael Landi, IITA, Kenya                 |
+| 10:00–10:45  | 💻 Tutorial: [Quality control](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/01_QC.md)                                                                  | Michael and Andreas                        |
 | 10:45–11:00  | ☕ Coffee break                                                                                |                                            |
-| 11:00–13:00  | 💻 Tutorial: Genomescope                                                                      | Michael and Andreas                        |
+| 11:00–13:00  | 💻 Tutorial: [Genomescope](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/02_GenomeScope2.md)                                                                      | Michael and Andreas                        |
 | 13:00–14:30  | 🍴 Lunch break                                                                                |                                            |
 | 14:30–15:00  | Presentation on Star Apple sampling and benefits of the plant                                 | Awoyemi, Adewale, IITA, Nigeria            |
-| 15:00–15:30  | 💻 Tutorial: Genome assembly - hifiasm, canu and flye                                         | Michael and Andreas                        |
+| 15:00–15:30  | 💻 Tutorial: [Genome assembly - hifiasm, canu and flye](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/03_assembly.md)                                         | Michael and Andreas                        |
 | 15:30–17:00  | 💻 Tutorial: BUSCO and QUAST                                                                  | Andreas and Michael                        |
 | 17:00–17:30  | 💻 Tutorial: Run OmniC read mapping script (expected to run overnight)                        | Andreas and Michael                        |
 
