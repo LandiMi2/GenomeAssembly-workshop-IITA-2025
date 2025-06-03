@@ -28,7 +28,7 @@ Get the sizes of the contigs
 `cut -f1,2 StarApple.p.purged2.fa.fai > StarApple.p.purged2.fa.fai.sizes`
 
 
-`mkdir tmp` this will be used as a temporary directory to store temporary output files
+`mkdir tmp` this will be used as a temporary directory to store temporary output files. 
 
 Now create _new screen_ to run the OmniC reads mapping script
 
@@ -40,8 +40,8 @@ Copy below chuck of code and save it as script
 
 `nano mapOmniC.sh`
 
-Copy paste. We will discuss each line of code as we wait for the mapping to complete
-
+Copy paste. We will discuss each line of code as we wait for the mapping to complete.
+**Change the path of the tmp folder**
 
 ```
 bwa index StarApple.p.purged2.fa 
