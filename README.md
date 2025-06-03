@@ -51,7 +51,7 @@ Time in West Africa Time (WAT)
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 08:30–09:00  | Day 2 Recap                                                                                   | All                                        |
 | 09:00–10:00  | 💻 Tutorial: QC and triming of OmniC reads - Exercises                                        | Participants                               |
-| 10:00–10:45  | BWA mapping and pairtools (step by step script explanation)                                   | Andreas                                    |
+| 10:00–10:45  | [BWA mapping and pairtools (step by step script explanation)](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/OmniC.pdf)                                   | Andreas                                    |
 | 10:45–11:00  | ☕ Coffee break                                                                                |                                            |
 | 11:15–11:45  | 💻 Tutorial: Genome scaffolding                                                               | Michael                                    |
 | 11:45–13:00  | 💻 Tutorial: BUSCO and QUAST (Start Apple genome - contigs & scaffolds) - Exercises           | Participants                               |
@@ -65,7 +65,7 @@ Time in West Africa Time (WAT)
 | Time         | Session                                                                                       | Instructor(s)                              |
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 08:30–09:00  | Day 3 Recap                                                                                   | All                                        |
-| 09:00–09:45  | Introduction to Bioinformatics Databases                                                      | Andreas                                    |
+| 09:00–09:45  | [Introduction to Bioinformatics Databases](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/BioDatabases.pdf)                                                      | Andreas                                    |
 | 09:45–10:30  | Genome annotation (gene + repeat annotation) talk                                             | Laura Ondari, IITA, Kenya                  |
 | 10:30–10:45  | ☕ Coffee break                                                                                |                                            |
 | 10:45–13:00  | 👩‍💻 Demo: EDTA/RepeatMasker,Braker, EggNOG, InterProScan, BUSCO evaluation                     | Laura Ondari, IITA, Kenya                  |
