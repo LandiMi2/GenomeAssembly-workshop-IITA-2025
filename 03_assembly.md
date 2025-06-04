@@ -72,7 +72,7 @@ python -m pip install .
 Run busco
 
 ```
-busco -m genome -i star.p.fasta -o  starBusco --metaeuk -l eudicots_odb10 -c 2
+/data01/workshop/.local/bin/busco -m genome -i star.p.fasta -o  starBusco --metaeuk -l eudicots_odb10 -c 2
 ```
 
 Explore the summary report
