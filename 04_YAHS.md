@@ -17,28 +17,40 @@ For this task use fastqc and fastp as demonstrated the day before
 
 Create a soft link of the genome to your workind directory 
 
-`ln -s /data01/dataRepository/StarApple/StarApple.p.purged2.fa .`
+```
+ln -s /data01/dataRepository/StarApple/StarApple.p.purged2.fa .
+```
 
 Create an index file of the reference genome
 
-`samtools faidx StarApple.p.purged2.fa`
+```
+samtools faidx StarApple.p.purged2.fa
+```
 
 Get the sizes of the contigs 
 
-`cut -f1,2 StarApple.p.purged2.fa.fai > StarApple.p.purged2.fa.fai.sizes`
+```
+cut -f1,2 StarApple.p.purged2.fa.fai > StarApple.p.purged2.fa.fai.sizes
+```
 
 
-`mkdir tmp` this will be used as a temporary directory to store temporary output files. 
+```
+mkdir tmp
+```
+this will be used as a temporary directory to store temporary output files. 
 
 Now create _new screen_ to run the OmniC reads mapping script
 
 All the tools have been compiled in a python environment, activate the environment
 
-`source /data01/utilities/mapOmnic/bin/activate`
+```
+source /data01/utilities/mapOmnic/bin/activate
+```
 
 Copy below chuck of code and save it as script
 
-`nano mapOmniC.sh`
+```nano mapOmniC.sh
+```
 
 Copy paste. We will discuss each line of code as we wait for the mapping to complete.
 **Change the path of the tmp folder**
@@ -51,7 +63,7 @@ bwa mem -SP -T0 -t 10 StarApple.p.purged2.fa \
 pairtools parse --min-mapq 0 --walks-policy 5unique \
 --max-inter-align-gap 30 --nproc-in 4 --nproc-out 4 \
 --chroms-path StarApple.p.purged2.fa.fai.sizes | \
-pairtools sort --tmpdir=/data01/workshop/workshop/omniC/tmp --nproc 8 \
+pairtools sort --tmpdir= --nproc 8 \
 | pairtools dedup --nproc-in 4 \
 --nproc-out 4 --mark-dups --output-stats stats.txt | pairtools split --nproc-in 4 \
 --nproc-out 4 --output-pairs AsmOmniCmapped.pairs --output-sam - | samtools view -bS -@8 | \
@@ -60,7 +72,9 @@ samtools sort -@8 -o AsmOmniCmapped.bam ;samtools index AsmOmniCmapped.bam
 
 **Scaffolding using YAHS**
 
-`yahs StarApple.p.purged2.fa AsmOmniCmapped.bam -o StarAppleScaf`
+```
+yahs StarApple.p.purged2.fa AsmOmniCmapped.bam -o StarAppleScaf
+```
 
 **Genome evaluation** 
 
