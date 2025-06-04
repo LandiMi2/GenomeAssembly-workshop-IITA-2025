@@ -49,7 +49,8 @@ source /data01/utilities/mapOmnic/bin/activate
 
 Copy below chuck of code and save it as script
 
-```nano mapOmniC.sh
+```
+nano mapOmniC.sh
 ```
 
 Copy paste. We will discuss each line of code as we wait for the mapping to complete.
