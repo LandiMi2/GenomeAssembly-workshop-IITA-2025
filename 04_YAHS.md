@@ -4,10 +4,10 @@ We now have a draft assembly that we will now scaffold using the OmniC reads. Fi
 
 Before mapping the OmniC reads follow [QC tutorial](https://github.com/LandiMi2/GenomeAssemblyTut/blob/main/01_QC.md) - check for the quality and trim the reads based on the QC report
 
-The data is avalable: `/data01/dataRepository/StarApple/`
+The data is avalable: `/data01/dataRepository/StarApple/Results/omniC_subset`
 
-    OmniC_R1.fastq.gz
-    OmniC_R2.fastq.gz
+    OmniC_1M_R1.fastq
+    OmniC_1M_R2.fastq
  
 **QC and trimming of the the OmniC reads**
 
