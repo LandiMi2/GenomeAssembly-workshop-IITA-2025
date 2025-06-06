@@ -66,7 +66,7 @@ Time in West Africa Time (WAT)
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 08:30–09:00  | Day 3 Recap                                                                                   | All                                        |
 | 09:00–09:45  | [Introduction to Bioinformatics Databases](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/BioDatabases.pdf)                                                      | Andreas                                    |
-| 09:45–10:30  | Genome annotation (gene + repeat annotation) talk                                             | Laura Ondari, IITA, Kenya                  |
+| 09:45–10:30  | [Genome annotation (gene + repeat annotation) talk](https://docs.google.com/presentation/d/15Z8w23YrWTaYjAigZjX-GsrMnKctkmpe8Dxai3TVSmU/edit?slide=id.g35e06ffbcc5_0_56#slide=id.g35e06ffbcc5_0_56)                                             | Laura Ondari, IITA, Kenya                  |
 | 10:30–10:45  | ☕ Coffee break                                                                                |                                            |
 | 10:45–13:00  | 👩‍💻 Demo: EDTA/RepeatMasker,Braker, EggNOG, InterProScan, BUSCO evaluation                     | Laura Ondari, IITA, Kenya                  |
 | 13:00–14:30  | 🍴 Lunch break                                                                                |                                            |
