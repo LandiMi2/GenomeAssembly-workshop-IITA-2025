@@ -80,7 +80,7 @@ Time in West Africa Time (WAT)
 |--------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|
 | 09:00–10:00  | Recap and overview of the whole workshop                                                      | All                                        |
 | 10:00–10:15  | ☕ Coffee break                                                                                |                                            |
-| 10:15–13:00  | Discussion: Functional Annotation Group Work + Publication Strategy; Q&A                      | Andreas                                    |
+| 10:15–13:00  | [Star Apple Benefits](https://github.com/LandiMi2/GenomeAssembly-workshop-IITA-2025/blob/main/StarAppleBenefit.pdf) <br>Discussion: Functional Annotation Group Work + Publication Strategy; Q&A                      | Andreas                                    |
 | 13:00–14:00  | 🍴 Lunch break                                                                                |                                            |
 | 14:00–16:00  | 🎓 Certificates and Closing Remarks                                                           | Andreas and Lukman                         |
 
